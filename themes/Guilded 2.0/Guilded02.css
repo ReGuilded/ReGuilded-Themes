@@ -1,0 +1,259 @@
+/*.Scrollable-container.SidebarWrapper-container.SidebarWrapper-container-collapsed.PageSidebarWrapper-container.PageSidebarWrapper-container-tabs.PageSidebar-container,
+.Scrollable-container.SidebarWrapper-container.SidebarWrapper-container-collapsed.PageSidebarWrapper-container.PageSidebar-container 
+{ display: none; }*/
+
+/*.SidebarUsersRoleInfo-container.TeamPageSidebarMembers-roles:last-child { display: none; }*/
+
+/*.ChannelWrapper-container-with-sidebar .ChannelWrapper-contents { padding-right: 0; }*/
+
+/* Buttons & Branding */
+.LogoAndWordmarkV2-container-theme-light { fill: #F5C400; }
+.TeamNavHeader-follow-and-apply-control, .TeamNavHeader-header-buttons { bottom: 10px; }
+.TeamNavHeaderRowButton-container { background: none; border: 1px solid #f5c400; border-radius: 20px; transition: background-color, border-color 320ms ease-out; }
+.TeamNavHeaderRowButton-container:hover { border-color: white; }
+.TeamNavHeaderRowButton-container:not(.TeamNavHeaderRowButton-container-disabled)::after { border-radius: 20px; }
+.FormConfirmButtonV2-container.FormConfirmButtonV2-container-type-bleached { border-color: #f5c400; border-radius: 20px; }
+.FormConfirmButtonV2-container { border-radius: 5px; }
+.UpdateApplicationButtons-button.UpdateApplicationButtons-decline-button { border-radius: 5px; }
+
+.OverviewWidgetItem-contents svg.icon-youtube { fill: #FF0000; }
+.OverviewWidgetItem-contents svg.icon-twitter { fill: #1DA1F2; }
+.OverviewWidgetItem-contents svg.icon-switch { fill: #e60012; }
+.OverviewWidgetItem-contents svg.icon-bnet { fill: rgb(20, 142, 255); }
+.OverviewWidgetItem-contents svg.icon-xbox { fill: #107C10; }
+.OverviewWidgetItem-contents svg.icon-twitch { fill: #9146ff; }
+.OverviewWidgetItem-contents svg.icon-steam { fill: #fff; }
+.OverviewWidgetItem-contents svg.icon-roblox { fill: #00a2ff; }
+.OverviewWidgetItem-contents svg.icon-origin { fill: #f56c2d; }
+.OverviewWidgetItem-contents svg.icon-facebook { fill: #4267B2; }
+
+/* Notification */
+.NavSelectorItem-container-orientation-vertical.NavSelectorItem-container-unread:before { background-color: #df5353; }
+.TeamChannelItemContents-container-unread:before { background-color: #ffe21c; border-radius: 10px; }
+.TeamChannelItemContents-container-unread .TeamChannelItemContents-name { color: #ffe21c; }
+.TeamNavMenuSections-unread-messages.TeamNavMenuSections-unread-messages-below { background: #df5353 !important; }
+
+/* Text Styling */
+blockquote { font-size: 1.1em; }
+ol, ul { font-size: 1.1em; }
+.BlockQuoteContainerRenderer { border-radius: 10px; }
+.BlockQuoteLineRenderer { line-height: 1.5em; }
+.BlockQuoteLineRenderer:first-child:before { content: '\201C'; display: block; font-size: 3em; color: #F5C400; }
+.BlockQuoteLineRenderer:last-child:after { content: '\201D'; display: block; font-size: 3em; color: #F5C400; text-align: right; margin-bottom: -2.5%; margin-top: 2.5%; }
+.GuildedText-container-color-gilded1 {
+    color: #f2e186;
+}
+.GH1-container { font-size: 1.4em; line-height: 1.2em; }
+.HeadingSmallRenderer { font-size: 1.4em; line-height: 1.4em;}
+.TypingIndicator-container { background: #111820; }
+.LoadingAnimationMicro-container-dark .LoadingAnimationMicro-bar { background: #F5C400; }
+.LoadingAnimationMicro-bar { background: #F5C400; }
+.WordDividerLine-container-type-alert .WordDividerLine-line { background: #edd75c; }
+.WordDividerLine-container-word-style-chat .WordDividerLine-word { background: ; color: white;}
+
+/* Text Editor */
+.SlateEditor-container-type-default:not(.SlateEditor-container-read-only) .SlateEditor-editor.SlateEditor-editor-unpadded { padding-left: 2.5%; padding-right: 2.5%; }
+.TeamThreadPostEditor-container { border-radius: 10px; background: #0A1017;}
+@media (max-width: 1200px) {
+    .TeamThreadPostEditor-container-standalone { background: none; }
+}
+
+/* Guilded Staff */
+.PlayerCardProfilePicture-avatar[alt="Fii's avatar"],
+.PlayerCardProfilePicture-avatar[alt="Diana's avatar"],
+.PlayerCardProfilePicture-avatar[alt="Eli's avatar"],
+.PlayerCardProfilePicture-avatar[alt="Jocelyn's avatar"],
+.PlayerCardProfilePicture-avatar[alt="Ryan's avatar"],
+.PlayerCardProfilePicture-avatar[alt="Puddleglum's avatar"],
+.PlayerCardProfilePicture-avatar[alt="Jared | UpDownLeftDie's avatar"] {
+    border: 2px solid #F5C400;
+}
+
+.ChatV2MessageHeader-avatar[alt="Fii's avatar"],
+.ChatV2MessageHeader-avatar[alt="Diana's avatar"],
+.ChatV2MessageHeader-avatar[alt="Eli's avatar"],
+.ChatV2MessageHeader-avatar[alt="Jocelyn's avatar"],
+.ChatV2MessageHeader-avatar[alt="Ryan's avatar"],
+.ChatV2MessageHeader-avatar[alt="Puddleglum's avatar"],
+.ChatV2MessageHeader-avatar[alt="Jared | UpDownLeftDie's avatar"] {
+    border: 2px solid #F5C400;
+}
+
+/* Navigation */
+.GroupSelector-container { background-color: #000; --border-color: #000; }
+.TeamPageV2-nav { box-shadow: 5px 0px 15px 0px rgba(0, 0, 0, 0.50); }
+.TeamNavMenu-container { background-color: #111820; }
+.Navbar-container { background-color: #111; --border-color: #111; }
+.ScreenHeader-container { background-color: #111; border-bottom: 1px solid #F5C400; }
+.LayeredPageContent-content { background-color:  #111820; }
+.SidebarWrapper-container { background-color: #111820; }
+.SidebarInfoItem-container { background-color: #111820; }
+.ChatChannelList-container { background: #000; --border-color: #000; }
+.ChatChannelListItem-container { border-radius: 5px; }
+.ChatChannelContents-container { background: #111820; }
+.Scrubber-handle-wrapper .Scrubber-handle { background: #F5C400; }
+.UserBasicInfoDisplay-secondary { margin-top: 0; }
+
+/* Settings */
+.OptionsMenu-container-desktop .OptionsMenu-options-control { background: #000; }
+.OptionsMenuPageWrapper-container { background: #111820; }
+.ModalV2-container { background: #111820; }
+
+/* Profile */
+.WebAppV2-sidebar { background: #000; }
+.NavV4SectionSidebar-container { background: #000; }
+.UserProfileV3-container { background: #111820; }
+.UserProfilePostPanel-container { background: #0A1017; border-radius: 10px; border: none;}
+
+.UserGameSummaryCard-container { background: #0A1017; }
+
+.PlayerCard-container { background: #0A1017; }
+.PlayerAliasCard-container-type-game .PlayerAliasCard-info { background: #0A1017; }
+.PlayerAliasCard-container-type-game { background: #0A1017; }
+
+/* Overview */
+.TeamPlaqueV2-team-name { font-size: 1.8em; }
+.TeamOverviewRoot-description { line-height: 1.6em; }
+.OverviewWidgetItem-text-paragraph { line-height: 1.6em; }
+.TeamOverviewContentItemCard-container { border-radius: 10px; background: #0A1017;}
+.OverviewWidgetItemWrapper-container-type-filled { border-radius: 10px; background: #0A1017; }
+.TeamOverviewLeaderboardSection-leaderboard-container { border-radius: 10px; }
+.CarouselList-controls-arrow { fill: #F5C400; }
+.CarouselList-container-size-sm .CarouselList-blur-light.CarouselList-right-blur { background: linear-gradient(to right, rgba(55,57,67,0), #111820 75%); }
+.CarouselList-container-size-sm .CarouselList-blur-light.CarouselList-left-blur { background: linear-gradient(to left, rgba(55,57,67,0), #111820 75%); }
+
+.DraftInputWithTitleV2-container { border-radius: 10px; }
+.PostDisplayV2-container { border-radius: 10px; }
+.MediaRenderer-content { border-radius: 10px; }
+
+/* Forums */
+.TeamPostRow-container { background: #0A1017; border-radius: 5px; }
+.TeamPostRow-container-unread:before { background: #F5C400; }
+.TeamPostRow-container-unread .TeamPostRow-title { color: #F5C400; }
+.TeamThreadReplyCreator-unexpanded-wrapper { border-radius: 10px; }
+.Editor-container { border-radius: 10px; }
+.TeamThreadPostPanel-container { border-radius: 10px; margin-bottom: 1.5%; }
+.TeamThreadPostPanelDisplay-container { background: #0A1017; border-radius: 10px; }
+
+/* Docs */
+.DocDisplayItem-container { border-radius: 10px; }
+.DocDisplayItem-container::after { border-radius: 10px; }
+.DocSummaryInfo-container { border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; }
+div[data-id="DocItem"] .ActionMenu-section.ActionMenu-section:last-child .ContextMenuItem-label { color: #df5353; }
+.icon-trash { fill: #df5353; }
+
+/* Calendar */
+/*.TeamEventDetails-container { background: #0A1017; border-radius: 10px; }
+.TeamEventDetails-metadata div { border-radius: 0; }
+.TeamEventStatus-container.TeamEventDetails-status { border-top-left-radius: 10px; border-top-right-radius: 10px; }
+.PostMetadata-container.PostMetadata-container-size-md.TeamEventDetails-post-metadata { border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; }*/
+
+/* Stream Channel */
+.StreamChannel-contents { flex-direction: column; }
+.StreamChannelDisplay-container.StreamChannel-display { min-height: initial; }
+.ChatChannelContents-container.StreamChannel-chat.StreamChannel-chat-with-streams { max-width: 100%; }
+
+/* Embeds */
+.ContentEmbedCard-container { height: auto; }
+.ChatEmbedsRenderer-embed { max-width: 480px; }
+.ContentEmbedCardStack-container-small-cards .ContentEmbedCardStack-content-embed-card,
+.ContentEmbedCardStack-container .ContentEmbedCardStack-external-embed-card {
+    min-width: 480px;
+    max-width: 480px;
+}
+
+.OpenGraphEmbedContent-container { height: auto; }
+.OpenGraphEmbedImage-container-playable:before { border-radius: 10px; }
+.OpenGraphEmbed-content {
+    border-left: 4px solid #F5C400;
+    border-radius: 10px;
+    background: #0A1017;
+}
+
+.OpenGraphEmbedContent-domain { font-size: 1em; }
+.OpenGraphEmbedContent-title{ font-size: 1.1em; margin-bottom: 2.5%; }
+.OpenGraphEmbedContent-description {
+    font-size: 1em;
+    max-height: 75px;
+    -webkit-line-clamp: 3;
+    line-height: 1.6em;
+}
+
+.OpenGraphEmbedImage-container {
+    position: relative;
+    display: flex;
+    margin-left: 0; 
+    width: 150px;
+    height: 113px;
+    max-width: 150px;
+    max-height: 113px;
+    margin-left: 2.5%;
+}
+
+.OpenGraphEmbedImage-image {
+    width: 150px;
+    height: 113px;
+    max-width: 150px;
+    max-height: 113px;
+    border-radius: 10px;
+    object-fit: cover;
+    background: #111820;
+}
+
+.ChatEmbed-container { border-radius: 10px; }
+.ChatEmbedsRenderer-container { line-height: 1.6em; }
+.ChatEmbedContent-image { border-radius: 10px; }
+.ChatEmbedFooter-container { border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; }
+
+.TeamEmbedCard-info-wrapper { margin: 2.5% 0; }
+
+.DefaultContentEmbedCard-content-wrapper { border-radius: 10px; }
+.ContentEmbedCardFooter-container { border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; }
+
+/* Chat Message */
+.ChatChannelInput-container .ChatChannelInput-editor { border-radius: 25px; box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.25); }
+.ChatChannelInput-container-inline-replying .ChatChannelInput-editor { border-radius: 0 0 10px 10px !important; }
+.ChatChannelInputStatusBar-container {
+    height: 50px;
+    border-radius: 10px 10px 0px 0px; 
+}
+
+.ParagraphRenderer { font-size: 1.1em; line-height: 1.5em; }
+.ParagraphRenderer-only-reaction { font-size: 3em; }
+/*.ReactionRenderer { font-size: 1.05em; }*/
+
+.ReactionPickerButton-icon { fill: #edd75c; }
+.ReactionPicker-container { border-radius: 10px; }
+.ReactionBadge-container-content { background: rgba(54,54,61,0.5); }
+
+.UserStatusIcon-icon { width: 22px; height: 22px; }
+.ChatV2MessageTimestamp-container { font-size: 0.8em; }
+.ChatV2MessageHeader-name { font-size: 1.1em; }
+.ChatV2Message-header { margin-bottom: 6px; }
+.ChatMessageThread-container { border-radius: 10px; background: rgba(54,54,61,0.5); }
+.ChatMessageThread-thread-header { line-height: 1em; }
+
+/* Image message */
+.MediaRenderer-wrapper { margin: 1% 0; }
+.MediaRenderer-content-editor-simple { border-radius: 10px; max-width: var(--max-chat-media-input-width, 480px); }
+.slate-margin-bottom-lg+.slate-margin-top-sm, .slate-margin-bottom-lg+.slate-margin-sm, .slate-margin-lg+.slate-margin-top-sm, .slate-margin-lg+.slate-margin-sm {
+    margin-top: 2.5%;
+}
+.slate-margin-top-lg, .slate-margin-lg { margin-top: 2.5%; }
+
+/* Channel */
+.TeamChannelItemContents-container { border-left: 2.5px solid transparent; border-radius: 0px; }
+.TeamChannelItemContents-container::after { border-radius: 0px; }
+.TeamChannelItemContents-name { font-size: 1.1em; }
+.TeamChannelItemContents-container-selected {
+/*background: linear-gradient(to left, #ffb400, #e4c519, #edd75c);*/
+background: #0A1017;
+border-left: 2.5px solid #F5C400;
+border-radius: 0;
+}
+.TeamChannelItemContents-container-selected .ChannelIcon-icon-primary { /*fill: #111820;*/ fill: #fff; }
+.TeamChannelItemContents-container-selected .TeamChannelItemContents-name { /*color: #111820;*/ color: #fff; font-weight: bold; }
+.ChannelListHeader-container-type-category .ChannelListHeader-text { font-size: 1em; }
+.TeamNavSectionsList-header { font-size: 1em; }
+
+/*.TeamThreadPostPanelDisplay-container { display: block; }*/
